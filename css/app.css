@@ -129,7 +129,7 @@ h1 {
 
 .url {
     font-size: 1em;
-    margin-bottom: 1em;
+    margin-bottom: 2em;
 }
 
 .url p {
@@ -138,4 +138,8 @@ h1 {
 
 .url p a{
     font-size: 1.25em;
+}
+
+.img-fluid {
+    width: 1.5em;
 }
