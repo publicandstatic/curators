@@ -126,9 +126,30 @@ h1 {
     background-color: var(--bs-dropdown-link-hover-bg) !important;
 }
 
-.url {
-    margin-bottom: 2em;
+h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    -webkit-filter: drop-shadow(0px 0px 4px #1f222c);
+    filter: drop-shadow(0px 0px 4px #1f222c);
+    color: #f7f619;
 }
+.url {
+    margin-top: 1.25em;
+    margin-bottom: 1.25em;
+}
+
+.btn-outline-light {
+    --bs-btn-color: var(--bs-card-color);
+    --bs-btn-border-color: var(--bs-card-color);
+}
+.btn-outline-light:hover {
+background-color: var(--bs-btn-hover-bg);
+border-color: var(--bs-btn-hover-border-color);
+}
+
+
+
+
 
 .img-fluid {
     width: 1.5em;
