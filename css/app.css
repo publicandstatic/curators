@@ -147,10 +147,29 @@ background-color: var(--bs-btn-hover-bg);
 border-color: var(--bs-btn-hover-border-color);
 }
 
+a {
+    text-decoration: none;
+    position: relative;
+    color: #22A8CB;
+    font-size: 1em;
+}
 
+a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 0;
+    height: 4px;
+    background-color: currentColor;
+    transition: width 0.3s ease;
+}
 
-
+a:hover::after {
+    width: 100%;
+}
 
 .img-fluid {
-    width: 1.5em;
+    width: 1em;
+    padding-bottom: 3px;
 }
