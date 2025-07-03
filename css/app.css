@@ -147,14 +147,14 @@ background-color: var(--bs-btn-hover-bg);
 border-color: var(--bs-btn-hover-border-color);
 }
 
-a {
+.dropdown-menu a {
     text-decoration: none;
     position: relative;
     color: #22A8CB;
     font-size: 1em;
 }
 
-a::after {
+.dropdown-menu a::after {
     content: "";
     position: absolute;
     left: 0;
@@ -165,7 +165,7 @@ a::after {
     transition: width 0.3s ease;
 }
 
-a:hover::after {
+.dropdown-menu a:hover::after {
     width: 100%;
 }
 
