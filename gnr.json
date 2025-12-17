@@ -1,0 +1,28 @@
+{
+    "target_channel": "GamesNewsReposts",
+    "channels": [
+        "oldboi_ua",
+        "hrainovyny",
+        "gamestreetua",
+        "playstation_in_ua",
+        "pad0n",
+        "playua",
+        "ukrgc_ua",
+        "XGTV1",
+        "krabgeek",
+        "pronintendoua",
+        "gamedev_dou",
+        "ukrgc_ua",
+        "nachasi_games",
+        "GameResisters",
+        "UITGamerzzz",
+        "sirtoxicua",
+        "steam_free_ua",
+        "gravkapp",
+        "wtg_ua",
+        "BrenntkopfDevelopment"
+    ],
+    "repost_forwards": false,
+    "include_text_contains": [],
+    "exclude_text_contains": []
+}
